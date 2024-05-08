@@ -108,7 +108,9 @@ To set up and run this project locally, follow these steps:
     - Make you have a python installation or environment and install the requirements: pip install -r requirements.txt
     - Run your Flask app locally by executing 
    <br>
+   
    **`run.py`**
+   
       ```
       python3 run.py
       ``` 
