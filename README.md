@@ -6,7 +6,7 @@ Finchat is a project that integrates with OpenAI or a custom model to provide fi
 
 ![Travel Bot](Docs/overview.gif)
 
-This project aims to develop a finance assistant chatbot that users can interact with via WhatsApp. The bot leverages AI technology through OpenAI's platform or a custom-built model to respond to user queries related to finance analysis, recommendations, and more.
+This project aims to develop a finance assistant chatbot that users can interact with via WhatsApp. The bot leverages AI technology through OpenAI's platform or a custom-built model (lama3) to respond to user queries related to finance analysis, recommendations, and more.
 
 ## Project Structure
 
@@ -38,14 +38,14 @@ To set up and run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/yourusername/FinChat.git
    cd yourproject
    ```
 2. Create a Python Virtual Environment (optional but recommended):
    ```
-   python3 -m venv .travelchatbot
+   python3 -m venv .FinChat
    
-   source .travelchatbot/bin/activate
+   source .FinChat/bin/activate
    ```
 3. Install Dependencies:
    ```
@@ -70,14 +70,18 @@ To set up and run this project locally, follow these steps:
     - PHONE_NUMBER_ID: Phone number ID associated with the WhatsApp account 
     - VERIFY_TOKEN: Verification token for webhook verification 
     - OPENAI_API_KEY: API key for accessing OpenAI services.
+    <br>
   
   **`Setup Script`**
+  <br>
      ```
        chmod +x Setup/setup_env.sh
        ./Setup/setup_env.sh
      ```
+     <br>
 6. Ngrok setup
    - The steps below are taken from the [Ngrok Documentation](https://ngrok.com/docs/integrations/whatsapp/webhooks/)
+   <br>
    **`Setup Script`**
    ```
     chmod +x Setup/setup_ngrok.sh
@@ -94,7 +98,9 @@ To set up and run this project locally, follow these steps:
    **`Start app`**
 
     - Make you have a python installation or environment and install the requirements: pip install -r requirements.txt
-    - Run your Flask app locally by executing **`run.py`**
+    - Run your Flask app locally by executing 
+   <br>
+   **`run.py`**
       ```
       python3 run.py
       ``` 
