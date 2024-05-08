@@ -70,23 +70,31 @@ To set up and run this project locally, follow these steps:
     - PHONE_NUMBER_ID: Phone number ID associated with the WhatsApp account 
     - VERIFY_TOKEN: Verification token for webhook verification 
     - OPENAI_API_KEY: API key for accessing OpenAI services.
-    <br>
+    
   
-  **`Setup Script`**
-  <br>
+    **`Setup Script`**
+    <br>
+    
      ```
        chmod +x Setup/setup_env.sh
+       
        ./Setup/setup_env.sh
      ```
+     
      <br>
+     
 6. Ngrok setup
    - The steps below are taken from the [Ngrok Documentation](https://ngrok.com/docs/integrations/whatsapp/webhooks/)
    <br>
+   
    **`Setup Script`**
-   ```
-    chmod +x Setup/setup_ngrok.sh
-    ./Setup/setup_ngrok.sh
-   ``` 
+   
+      ```
+     chmod +x Setup/setup_ngrok.sh
+    
+     ./Setup/setup_ngrok.sh
+     ``` 
+     
 7.  Select Phone Numbers
 
    - Make sure WhatsApp is added to your App.
